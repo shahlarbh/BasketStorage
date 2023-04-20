@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+body header {
+  background-color: red;
+}
+body header .all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+body header .all .logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+body header .all .basket {
+  cursor: pointer;
+  position: relative;
+}
+body header .all .basket i {
+  color: white;
+  font-size: 24px;
+}
+body header .all .basket span {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: -70%;
+}
+body section .context {
+  margin-top: 1rem;
+}
+body section .context .box {
+  border: 1px solid black;
+  padding: 1rem;
+  cursor: pointer;
+}
+body section .context .box .img img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+body section .context .box .info {
+  text-align: center;
+  margin-top: 1rem;
+}
+body section .context .box .info button {
+  padding: 1rem 2rem;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+body section .context .box .info button:hover {
+  background-color: rgb(2, 61, 2);
+}
+body section .toaster {
+  background-color: green;
+  display: inline-block;
+  padding: 8px 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: 0.5s;
+  position: absolute;
+  top: 85%;
+  right: -20%;
+}
+
+table img {
+  width: 40%;
+  margin: auto;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=style.css.map */

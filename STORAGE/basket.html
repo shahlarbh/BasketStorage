@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage</title>
+    <link rel="icon" href="https://shop.az/assets/images/favicon/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="all">
+                <div class="logo">
+                    <a href="index.html">Shop.az</a>
+                </div>
+                <div class="basket">
+                    <a href="basket.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span id="count">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="alert alert-danger w-25 mx-auto my-4 text-center d-none">Basket is empty</div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Count</th>
+                    <th scope="col">Per Price</th>
+                    <th scope="col">Total Price</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+        </section>
+    </main>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/basket.js"></script>
+</body>
+</html>
